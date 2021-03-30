@@ -15,5 +15,7 @@ arch:
     - amd64
     - ppc64le
 script:
+    - sudo make clean
+    - sudo make uninstall
     - sudo make install
     - make check
