@@ -1,0 +1,19 @@
+# ----------------------------------------------------------------------------
+#
+# Package             : moonjit
+# Source Repo         : https://github.com/moonjit/moonjit
+# Travis Job Link     : https://travis-ci.com/github/asellappen/moonjit/
+# Created travis.yml  : Yes
+# Maintainer          : Arumugam N S <asellappen@yahoo.com> / Priya Seth<sethp@us.ibm.com>
+#
+# Script License      : Apache License, Version 2 or later
+#
+# ----------------------------------------------------------------------------
+language: lau
+dist: focal
+arch:
+    - amd64
+    - ppc64le
+script:
+    - sudo make install
+    - make check
