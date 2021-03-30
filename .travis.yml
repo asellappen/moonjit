@@ -6,7 +6,7 @@
 # Created travis.yml  : Yes
 # Maintainer          : Arumugam N S <asellappen@yahoo.com> / Priya Seth<sethp@us.ibm.com>
 #
-# Script License      : Apache License, Version 2 or later
+# Script License      : Apache License, Version 2 or later  
 #
 # ----------------------------------------------------------------------------
 language: lau
