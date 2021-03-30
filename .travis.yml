@@ -15,7 +15,9 @@ arch:
     - amd64
     - ppc64le
 script:
+    - df -k src
     - sudo make clean
     - sudo make uninstall
+    - df -k src
     - sudo make install
     - make check
