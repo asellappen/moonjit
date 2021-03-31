@@ -18,5 +18,8 @@ arch:
     - amd64
     - ppc64le
 script:
+    #few test case are not supported for ppc64le and raised the issue to community
+	#modified files math_special.lua & ffi_arith_int64.lua for ppc64le under test/unportable
+	#Issue rasied https://github.com/moonjit/moonjit/issues/137
     - sudo make install
     - make check
